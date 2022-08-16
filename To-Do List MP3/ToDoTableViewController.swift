@@ -13,9 +13,10 @@ class ToDoTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         toDos = createToDos()
+    }
         
+                
         func createToDos() -> [ToDo] {
 
           let swift = ToDo()
